@@ -26,10 +26,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Home</router-link>
+            <router-link class="nav-link" active-class="active"  to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/about">About</router-link>
+            <router-link class="nav-link" active-class="active"  to="/about">About</router-link>
           </li>
         </ul>
       </div>
@@ -43,5 +43,8 @@
 /* Optional: add custom styles */
 .navbar-brand {
   font-weight: bold;
+}
+.active{
+  color: greenyellow !important;
 }
 </style>

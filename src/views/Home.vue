@@ -6,9 +6,6 @@
 </template>
 
 <style>
-    body {
-        background-color: black;
-    }
 
     /* Gradient text */
     .gradient-text {

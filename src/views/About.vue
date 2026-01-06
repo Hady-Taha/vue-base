@@ -9,13 +9,9 @@
     </div>
 </template>
 
-<style>
+<style >
     body {
-        background-color: black;
-        color: chartreuse;
-        margin: 0;
-        font-family: Arial, sans-serif;
-        text-align: center;
+        color: chartreuse !important;
     }
 
     .about-page h1 {

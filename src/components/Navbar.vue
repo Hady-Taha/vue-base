@@ -4,8 +4,8 @@
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
       <!-- Brand -->
       <router-link class="navbar-brand" to="/">MyApp</router-link>
 
@@ -30,11 +30,6 @@
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/about">About</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/profile">
-              <i class="bi bi-person-circle"></i> Profile
-            </router-link>
           </li>
         </ul>
       </div>

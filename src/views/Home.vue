@@ -1,6 +1,9 @@
-<script setup></script>
+<script setup>
+import Navbar from '../components/Navbar.vue'
+</script>
 <template>
-    <div class="d-flex flex-column justify-content-center align-items-center" style="height: 100dvh;">
+    <Navbar/>
+    <div class="container d-flex flex-column justify-content-center align-items-center" style="height: 100dvh;">
         <h1 class="gradient-text">Time to build, create, and make your ideas real!</h1>
     </div>
 </template>
